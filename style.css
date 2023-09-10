@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/wp4902400.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.878);
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 255, 132, 0.777);
+    transition: 0.5s;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(0, 174, 255);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
